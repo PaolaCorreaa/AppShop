@@ -179,6 +179,8 @@ return [
         //Barryvdh\DomPDF\ServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+
+        Laravel\Scout\ScoutServiceProvider::class,
         
 
     ],

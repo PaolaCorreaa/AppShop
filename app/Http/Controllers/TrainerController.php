@@ -91,7 +91,16 @@ class TrainerController extends Controller
         //return $trainer;
 
     }
+    //public function showscout($name)
+    //{
+        //return 'tengo que regresar el id';
+        //return view("show");
+      //  $trainer = Trainer::find($name);
+         //return $trainer;
+       // return view('SearchShow', compact('trainer'));
+        //return $trainer;
 
+    //}
     /**
      * Show the form for editing the specified resource.
      *

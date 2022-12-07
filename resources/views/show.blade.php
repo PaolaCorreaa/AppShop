@@ -3,12 +3,10 @@
 @section('content') 
 @csrf
 
-<!--<img style="heigth: 100px; width: 100px;
-          background-color: #EFEFEF; margin:20px;"
-          class="card-img-top rounded-circle mx-auto d-block"
-          src="{!! asset('images/1664383819descarga.png') !!}">-->
-    <img style="height: 100px; width: 100px; background-color: #EFEFEF; margin: 20px;"
-        class="card-img-top rounded-circle mx-auto d-block" src="images/{{$trainer->avatar}}">
+<!--<img style="heigth: 100px; width: 100px; background-color: #EFEFEF; margin:20px;"
+    class="card-img-top rounded-circle mx-auto d-block" src="{!! asset('images/1664383819descarga.png') !!}">-->
+        <img style="height: 100px; width: 100px; background-color: #EFEFEF; margin: 20px;"
+        class="card-img-top rounded-circle mx-auto d-block" src="images/{{$trainer->Avatar}}">
           <!--src="public\images\1664383819descarga.png" alt=""
           src="/images/{{($trainer->avatar)}}" alt=""-->
            <h5 class="text-center">{{$trainer->name}}</h5>

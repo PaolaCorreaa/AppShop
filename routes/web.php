@@ -67,3 +67,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('trainers','TrainerController');
 Route::get('delete/{id}','TrainerController@destroy');
 Route::get('descargar-entrenadores', 'TrainerController@pdf')->name('listado.pdf');
+
+Route::get('SearchShow2','SearchController@search');
