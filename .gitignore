@@ -3,7 +3,6 @@
 /public/storage
 /storage/*.key
 /vendor
-.env
 .env.backup
 .phpunit.result.cache
 Homestead.json
@@ -93,7 +92,6 @@ Homestead.json
 .phpunit.result.cache
 #Laravel Archivos específicos
 /vendedor
-.env
 /public/.htaccess
 /almacenamiento
 almacenamiento / *. tecla
